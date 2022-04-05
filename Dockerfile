@@ -1,12 +1,27 @@
-# Tags: latest, 4.8.0-debian-10-r13, 4.8.0, 4-debian-10, 4
+# Tags: latest, 4.8.0-debian-10-r18, 4.8.0, 4-debian-10, 4
 FROM bitnami/matomo:latest
-FROM bitnami/matomo:4.8.0-debian-10-r13
+FROM bitnami/matomo:4.8.0-debian-10-r18
 FROM bitnami/matomo:4.8.0
 FROM bitnami/matomo:4-debian-10
 FROM bitnami/matomo:4
 
 # Tags: _
 FROM bitnami/matomo:_
+
+# Tags: 4.8.0-debian-10-r17
+FROM bitnami/matomo:4.8.0-debian-10-r17
+
+# Tags: 4.8.0-debian-10-r16
+FROM bitnami/matomo:4.8.0-debian-10-r16
+
+# Tags: 4.8.0-debian-10-r15
+FROM bitnami/matomo:4.8.0-debian-10-r15
+
+# Tags: 4.8.0-debian-10-r14
+FROM bitnami/matomo:4.8.0-debian-10-r14
+
+# Tags: 4.8.0-debian-10-r13
+FROM bitnami/matomo:4.8.0-debian-10-r13
 
 # Tags: 4.8.0-debian-10-r12
 FROM bitnami/matomo:4.8.0-debian-10-r12
@@ -83,15 +98,3 @@ FROM bitnami/matomo:4.7.1-debian-10-r23
 
 # Tags: 4.7.1-debian-10-r22
 FROM bitnami/matomo:4.7.1-debian-10-r22
-
-# Tags: 4.7.1-debian-10-r21
-FROM bitnami/matomo:4.7.1-debian-10-r21
-
-# Tags: 4.7.1-debian-10-r20
-FROM bitnami/matomo:4.7.1-debian-10-r20
-
-# Tags: 4.7.1-debian-10-r19
-FROM bitnami/matomo:4.7.1-debian-10-r19
-
-# Tags: 4.7.1-debian-10-r18
-FROM bitnami/matomo:4.7.1-debian-10-r18
