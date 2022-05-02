@@ -1,12 +1,24 @@
-# Tags: latest, 4.9.1-debian-10-r1, 4.9.1, 4-debian-10, 4
+# Tags: latest, 4.9.1-debian-10-r5, 4.9.1, 4-debian-10, 4
 FROM bitnami/matomo:latest
-FROM bitnami/matomo:4.9.1-debian-10-r1
+FROM bitnami/matomo:4.9.1-debian-10-r5
 FROM bitnami/matomo:4.9.1
 FROM bitnami/matomo:4-debian-10
 FROM bitnami/matomo:4
 
 # Tags: _
 FROM bitnami/matomo:_
+
+# Tags: 4.9.1-debian-10-r4
+FROM bitnami/matomo:4.9.1-debian-10-r4
+
+# Tags: 4.9.1-debian-10-r3
+FROM bitnami/matomo:4.9.1-debian-10-r3
+
+# Tags: 4.9.1-debian-10-r2
+FROM bitnami/matomo:4.9.1-debian-10-r2
+
+# Tags: 4.9.1-debian-10-r1
+FROM bitnami/matomo:4.9.1-debian-10-r1
 
 # Tags: 4.9.1-debian-10-r0
 FROM bitnami/matomo:4.9.1-debian-10-r0
@@ -80,15 +92,3 @@ FROM bitnami/matomo:4.8.0-debian-10-r17
 
 # Tags: 4.8.0-debian-10-r16
 FROM bitnami/matomo:4.8.0-debian-10-r16
-
-# Tags: 4.8.0-debian-10-r15
-FROM bitnami/matomo:4.8.0-debian-10-r15
-
-# Tags: 4.8.0-debian-10-r14
-FROM bitnami/matomo:4.8.0-debian-10-r14
-
-# Tags: 4.8.0-debian-10-r13
-FROM bitnami/matomo:4.8.0-debian-10-r13
-
-# Tags: 4.8.0-debian-10-r12
-FROM bitnami/matomo:4.8.0-debian-10-r12
