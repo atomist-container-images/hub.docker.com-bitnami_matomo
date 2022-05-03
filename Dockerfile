@@ -89,6 +89,3 @@ FROM bitnami/matomo:4.8.0-debian-10-r18
 
 # Tags: 4.8.0-debian-10-r17
 FROM bitnami/matomo:4.8.0-debian-10-r17
-
-# Tags: 4.8.0-debian-10-r16
-FROM bitnami/matomo:4.8.0-debian-10-r16
